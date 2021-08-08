@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #place this into /etc/NetworkManager/dispatcher.d
-#setthe 2 variables below to the correct values
+#set the 2 variables below to the correct values
 #make sure the "enp0s*" is the correct network interface for you, or adapt! (use: "ip a")
 
 VPN_NAME="vpn" #VPN connection Name according to NetworkManager (as in /etc/NetworkManager/system-connections/)
