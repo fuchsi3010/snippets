@@ -110,5 +110,5 @@ alias \
 dn() {
   mkdir $1
   cd $1
-  vim docker-compose.yml" \
+  vim docker-compose.yml
 }
