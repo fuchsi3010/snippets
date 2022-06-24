@@ -103,9 +103,9 @@ alias soso="sudo swapoff -a && sudo swapon -a"
 
 #for docker and docker-compose
 alias \
-	dcu="docker-compose up -d" \
-	dcd="docker-compose stop" \
-	dcr="docker-compose up -d --force-recreate" \
+	dcu="docker compose up -d" \
+	dcd="docker compose stop" \
+	dcr="docker compose up -d --force-recreate" \
 	vd="vim docker-compose.yml"
 
 dn() {
